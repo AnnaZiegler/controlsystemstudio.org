@@ -110,7 +110,7 @@ const About = () => {
               <Site>ISIS</Site>
               <ul className="social-icons social-icons-color">
                 <li>
-                  <a href="https://github.com/DominicOram" className="social_github"></a>
+                  <a href="https://github.com/Monarda" className="social_github"></a>
                 </li>
               </ul>
             </Member>
@@ -230,6 +230,16 @@ const About = () => {
               </ul>
             </Member>
             <Member>
+              <h4>Lingran Xiao</h4>
+              <Role>Site Representative</Role>
+              <Site>Advanced Photon Source (ANL)</Site>
+              <ul className="social-icons social-icons-color">
+                <li>
+                  <a href="https://github.com/caraxlr" className="social_github"></a>
+                </li>
+              </ul>
+            </Member>
+            <Member>
               <h4>Tynan Ford</h4>
               <Role>Site Representative</Role>
               <Site>Advanced Light Source (LBNL)</Site>
@@ -239,7 +249,50 @@ const About = () => {
                 </li>
               </ul>
             </Member>
+            <Member>
+              <h4>Dominic Oram</h4>
+              <Role>Site Representative</Role>
+              <Site>Diamond Light Source (DLS)</Site>
+              <ul className="social-icons social-icons-color">
+                <li>
+                  <a href="https://github.com/DominicOram" className="social_github"></a>
+                </li>
+              </ul>
+            </Member>
           </Grid>
+
+        </div>
+        <div style={{ marginTop: `3rem`, marginBottom: `3rem` }}>
+          <h2>Community Resources</h2>
+          <h3>Matrix Chat</h3>
+          <p>
+            Join the CS-Studio Chat at
+            <a
+              href="https://matrix.to/#/#cs-studio:epics-controls.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            > #cs-studio:epics-controls.org </a>             
+            or read on for more information.
+          </p>
+          <p>
+            Follow the instructions on
+              <a
+              href="https://epics-controls.org/epics-chat/"
+              target="_blank"
+              rel="noopener noreferrer"
+            > EPICS Chat - epics-controls.org </a> 
+            to set up an account and get started.            
+          </p>
+          <h3>Github Discussion</h3>
+          <p>
+            Participate in our discussions on
+            <a
+              href="https://github.com/ControlSystemStudio/phoebus/discussions"
+              target="_blank"
+              rel="noopener noreferrer"
+            > GitHub - Control System Studio</a>
+            .
+          </p>
 
         </div>
         <div style={{ marginTop: `3rem`, marginBottom: `3rem` }}>
@@ -252,9 +305,6 @@ const About = () => {
               rel="noopener noreferrer"
             >EPICS Tech-Talk Mailing list</a>
           </p>
-          <p>Developer Level Questions: <a
-              href="mailto:cs-studio-core@lists.sourceforge.net"
-            >cs-studio-core@lists.sourceforge.net</a></p>
           <p>Report Bugs/Problems: <a
               href="https://github.com/ControlSystemStudio/phoebus/issues"
               target="_blank"

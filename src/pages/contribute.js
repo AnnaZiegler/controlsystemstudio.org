@@ -36,7 +36,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              docbook
+              Guidebook
             </a>
             .
           </li>
@@ -63,7 +63,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              docbook
+              guide
             </a>
             .
           </li>
@@ -98,7 +98,7 @@ const About = () => {
           <li>
             We use Google Hangouts to share our progress and discuss issues.
           </li>
-          <li>Meetings are posted (viewable after being added to group)</li>
+          <li>Meetings are posted (viewable after being added to group).</li>
           <li>
             Minutes are posted to{" "}
             <a
@@ -108,9 +108,10 @@ const About = () => {
             >
               Google Docs
             </a>
+            .
           </li>
-          <li>We meet the first Wednesday of each month (9am EST)</li>
-          <li>Project groups meet once a week when actively developing</li>
+          <li>We meet the first Wednesday of each month (9am EST).</li>
+          <li>Project groups meet once a week when actively developing.</li>
         </ul>
         <h2>Reporting Problems</h2>
         <p>
@@ -120,7 +121,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            open a ticket
+            create an issue
           </a>
           .
         </p>
@@ -167,6 +168,7 @@ const About = () => {
             >
               Submit a pull request
             </a>
+            .
           </li>
           <li>
             There should be some discussion and we will help you to get your

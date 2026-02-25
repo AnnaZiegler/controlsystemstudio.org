@@ -51,12 +51,23 @@ const About = () => {
         </p>
         <p>
           <a href="https://control-system-studio.readthedocs.io/en/latest/services/alarm-logger/doc/index.html" target="_blank">
-            Read more - Alarm Logger
+            Read more - Alarm Logging Service
           </a>
         </p>
         <p>
           <a href="https://control-system-studio.readthedocs.io/en/latest/services/alarm-config-logger/doc/index.html" target="_blank">
             Read more - Alarm Configuration Logger
+          </a>
+        </p>
+        {/** Archiver Appliance **/}
+        <div style={{ marginBottom: `3rem` }}></div>
+        <h2>Archiver Appliance</h2>
+        <p>
+        The EPICS Archiver Appliance (EAA) is an implementation of an archiver for EPICS control systems that aims to archive millions of PVs.
+        </p>
+        <p>
+          <a href="https://epicsarchiver.readthedocs.io/en/latest/" target="_blank">
+            Read more
           </a>
         </p>
         {/** Channel Finder */}
@@ -75,9 +86,9 @@ const About = () => {
         </p>
         {/** Logbook Service**/}
         <div style={{ marginBottom: `3rem` }}></div>
-        <h2>Logbook Service</h2>
+        <h2>Logbook Service (Olog)</h2>
         <p>
-          The Logbook Service (OLOG) is an electronic logbook which allows for the creation and retrieval of log entries.
+          The Logbook Service (Olog) is an electronic logbook which allows for the creation and retrieval of log entries.
           The service was developed to address the needs of operators, engineers, and users of large scientific facilities.
           Since these log entries are stored in Elasticsearch, the service also supports a powerful search API.
           Search criteria include log entry title and body or its meta-data (author, date, tags, properties), or both.

@@ -29,16 +29,6 @@ const SiteSpecificVersions = () => {
   return (
     <Grid>
       <Site>
-        <h3>DESY</h3>
-        <StyledDownloadButton
-          href="http://css.desy.de/content/e413/e2767/index_eng.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-            CSS DESY KRYO <FontAwesomeIcon icon={faExternalLinkAlt} />
-        </StyledDownloadButton>
-      </Site>
-      <Site>
         <h3>ESS</h3>
         <StyledDownloadButton
           href="https://artifactory.esss.lu.se/artifactory/libs-release-local/se/europeanspallationsource/ics/ess-cs-studio-phoebus/"

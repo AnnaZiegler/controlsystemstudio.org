@@ -153,7 +153,7 @@ const Collaboration = ({ style }) => {
           />
         </a>
         <a
-          href="https://www.diamondlightsource.ac.uk"
+          href="https://www.diamond.ac.uk/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Link to SNS Website"
