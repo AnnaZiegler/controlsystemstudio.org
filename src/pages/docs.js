@@ -44,7 +44,7 @@ const About = () => {
     <Layout>
       <SEO title="Docs" />
       <Banner imageFluid={images.banner.childImageSharp.gatsbyImageData} text="Docs" />
-      <Container>
+      <Container style={{ marginBottom: `2rem` }}>
         <Grid className="docsgrid" style={{ marginBottom: `2rem` }} >
           <Showcase
             href="https://control-system-studio.readthedocs.io/en/latest/"
@@ -105,37 +105,7 @@ const About = () => {
             <p>Notices are emailed to the core email list</p>
           </Showcase>
         </Grid>
-        <h2>Policy</h2>
-        <p>
-          Through a strategy of continuous improvement and teamwork, the Control
-          System Studio Collaboration is dedicated to supplying control system
-          tools for machine and experiment operator interfaces, automation and
-          service integration to enable our users to achieve their scientific
-          objectives.
-        </p>
-        <p>The foundation for achieving our commitment is based on:</p>
-        <ul>
-          <li>understanding and meeting the requirements of our users,</li>
-          <li>
-            continuously improving all processes related to the Control System
-            Studio product,
-          </li>
-          <li>
-            effectively utilizing the creative talents in the collaboration,
-          </li>
-          <li>and meeting statutory, regulatory, and other requirements.</li>
-        </ul>
-        <h2>Objectives</h2>
-        <ul>
-          <li>
-            90% User satisfaction from registered sites with a site
-            representative
-          </li>
-          <li>
-            90% Developer satisfaction from registered sites with a site
-            representative
-          </li>
-        </ul>
+        
       </Container>
     </Layout>
   );
