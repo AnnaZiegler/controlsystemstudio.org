@@ -55,29 +55,11 @@ const About = () => {
       <SEO title="About" />
       <Banner imageFluid={images.banner.childImageSharp.gatsbyImageData} text="About" />
       <Container>
-        <p>
-          Control System Studio is a collection of tools and applications to <Highlight>monitor and operate </Highlight>
+        <p style={{ marginBottom: `0` }}>
+          Control System Studio is a collection of tools and applications to monitor and operate 
           large scale control systems, such as the ones in the accelerator community. <Highlight>Phoebus </Highlight> 
           is the current implementation of CS-Studio.
         </p>
-        <h2>Policy</h2>
-        <p>
-          Through a strategy of continuous improvement and teamwork, the <Highlight>Control System Studio Collaboration</Highlight> is dedicated
-          to supplying control system tools for machine and experiment <Highlight>operator interfaces</Highlight>, <Highlight>automation</Highlight> and
-          <Highlight> service integration</Highlight> to enable our users to achieve their scientific objectives.
-        </p>
-        <p>The foundation for achieving our commitment is based on:</p>
-        <ul>
-          <li style={{ marginTop: `-1rem`}}>Understanding and meeting the requirements of our users,</li>
-          <li>continuously improving all processes related to the Control System Studio product,</li>
-          <li>effectively utilizing the creative talents in the collaboration,</li>
-          <li>and meeting statutory, regulatory, and other requirements.</li>
-        </ul>
-        <h2>Objectives</h2>
-        <ul>
-          <li><Highlight>90% User satisfaction</Highlight> from registered sites with a site representative.</li>
-          <li><Highlight>90% Developer satisfaction</Highlight> from registered sites with a site representative.</li>
-        </ul>
 
         <div style={{ marginTop: `3rem`, marginBottom: `3rem` }}>
           <h2>Meet Our Team</h2>
@@ -289,15 +271,16 @@ const About = () => {
               href="https://matrix.to/#/#cs-studio:epics-controls.org"
               target="_blank"
               rel="noopener noreferrer"
-            > #cs-studio:epics-controls.org</a>.
+            > #cs-studio:epics-controls.org </a>             
+            or read on for more information.
           </p>
           <p>
-            You can follow the instructions on
+            Follow the instructions on
               <a
               href="https://epics-controls.org/epics-chat/"
               target="_blank"
               rel="noopener noreferrer"
-            > EPICS Chat </a> 
+            > EPICS Chat - epics-controls.org </a> 
             to set up an account and get started.            
           </p>
           <h3>Github Discussion</h3>
@@ -315,19 +298,18 @@ const About = () => {
         <div style={{ marginTop: `3rem`, marginBottom: `3rem` }}>
           <h2>Contact</h2>
           <p>
-            For User Level Questions contact us through the {" "}
+            User Level Questions:{" "}
             <a
               href="http://www.aps.anl.gov/epics/tech-talk/"
               target="_blank"
               rel="noopener noreferrer"
-            >EPICS Tech-Talk Mailing list</a>.
+            >EPICS Tech-Talk Mailing list</a>
           </p>
-          <p>If you want to Report Bugs/Problems, you can use our <a
+          <p>Report Bugs/Problems: <a
               href="https://github.com/ControlSystemStudio/phoebus/issues"
               target="_blank"
               rel="noopener noreferrer"
-            >GitHub Issue Tracker</a>.
-            </p>
+            >GitHub Issue Tracker</a></p>
           <Collaboration style={{ marginTop: `3rem` }}/>
         </div>
       </Container>

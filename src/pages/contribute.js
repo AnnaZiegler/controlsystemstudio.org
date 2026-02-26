@@ -21,13 +21,16 @@ const About = () => {
       <SEO title="Contribute" />
       <Banner imageFluid={images.banner.childImageSharp.gatsbyImageData} text="Contribute" />
       <Container>
-          Phoebus & CS-Studio development is entirely hosted on GitHub if you want to participate you will need a GitHub account.
+        <h1>How to Contribute</h1>
+          Phoebus & CS-Studio development is hosted on Github. You will need a Github
+          account.
 
-        <h2 style={{ marginTop: `2rem` }}>CS-Studio Phoebus</h2>
+          
+        <h2>CS-Studio Phoebus</h2>
         <ul>
           <li>
-            The most complete documentation for developers, including build information 
-            and instructions for setting up various IDE's for the development of Phoebus, is the{" "}
+            The most complete documentation for developers, including how to
+            build and set up various IDE's for development of Phoebus, is the{" "}
             <a
               href="https://control-system-studio.readthedocs.io/en/latest/"
               target="_blank"
@@ -44,7 +47,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Phoebus GitHub repository
+              Phoebus Github repository
             </a>
             .
           </li>
@@ -60,7 +63,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Guide
+              guide
             </a>
             .
           </li>
@@ -71,13 +74,13 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              CS-Studio GitHub repository
+              CS-Studio Github repository
             </a>
             .
           </li>
         </ul>
 
-        <h2>Fork us on GitHub</h2>
+        <h2>Fork us on Github</h2>
 
         <p>
           All contributions are accepted as Pull Requests on{" "}
@@ -86,7 +89,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            Github
           </a>
           .
         </p>
@@ -95,7 +98,7 @@ const About = () => {
           <li>
             We use Google Hangouts to share our progress and discuss issues.
           </li>
-          <li>Meetings are posted there, visible after being added to the group.</li>
+          <li>Meetings are posted (viewable after being added to group).</li>
           <li>
             Minutes are posted to{" "}
             <a
@@ -107,12 +110,12 @@ const About = () => {
             </a>
             .
           </li>
-          <li>Monthly Meeting on the first Wednesday of the month (9am EST).</li>
+          <li>We meet the first Wednesday of each month (9am EST).</li>
           <li>Project groups meet once a week when actively developing.</li>
         </ul>
         <h2>Reporting Problems</h2>
         <p>
-          When in doubt or if you have a question, you can{" "}
+          When in doubt or have a question, you should{" "}
           <a
             href="https://github.com/ControlSystemStudio/phoebus/issues"
             target="_blank"
@@ -125,7 +128,7 @@ const About = () => {
         <h2>Development Guidelines</h2>
         <ul>
           <li>
-            For the code conventions we are using {" "}
+            For the code conventions we are using, see{" "}
             <a
               href="https://github.com/ControlSystemStudio/cs-studio/wiki/CodingGuidelines"
               target="_blank"
@@ -150,10 +153,12 @@ const About = () => {
         <h2>Contribute a patch</h2>
         <ul>
           <li>
-            When starting with a new patch, make sure to open an issue corresponding to the work you are about to do. This helps keep track of new developments.
+            Open a ticket corresponding to the work you are about to do. This
+            helps keep track of new developments.
           </li>
           <li>
-            Create a branch starting from one of the active branches and develop on the new branch.
+            Create a branch starting from one of the active branches and develop
+            on the new branch.
           </li>
           <li>
             <a
@@ -166,27 +171,27 @@ const About = () => {
             .
           </li>
           <li>
-            There should be some discussion and we will help you to get your patch merged.
+            There should be some discussion and we will help you to get your
+            patch merged.
           </li>
         </ul>
         <h2>New Plug-ins</h2>
         <p>
-          Plug-ins may be part of 'core', 'applications', or a site's specific product.
-          If you are unsure where to place your new plugin, feel free to ask.
-          Typically, new plugins are added to a feature, in order to be added to a product.
+          Plug-ins may be part of 'core', 'applications', or a site's specific
+          product. Ask if you are unsure of the best location. New plugins are
+          typically added to a feature in order to be installed in a product.
         </p>
         <p>
-          Use the Bundle-Vendor property of the manifest file of each plug-in (also visible in Eclipse in Overview/General Information/Provider)
-          to record the author/maintainer in the following form:
+          Use the Bundle-Vendor property of the manifest file of each plug-in
+          (also visible in Eclipse in Overview/General Information/Provider) to
+          record the author/maintainer in the following form:
         </p>
         <p>
           <code>{`Name Surname <email>[[Name Surname <email>|,]] - Site`}</code>
         </p>
         <p>
-          Example:
-          <code>
-            {`Gabriele Carcassi <carcassi@bnl.gov>, Kunal Shroff <kshroff@bnl.gov> - Brookhaven National Lab`}
-          </code>
+          For example:{" "}
+          <code>{`Gabriele Carcassi <carcassi@bnl.gov>, Kunal Shroff <kshroff@bnl.gov> - Brookhaven National Lab`}</code>
         </p>
       </Container>
     </Layout>
