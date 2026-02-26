@@ -13,6 +13,11 @@ import SiteSpecificVersions from "../components/SiteSpecificVersions"
 
 import { dlInfo } from "../utils/downloadinfo"
 
+const Highlight = styled.span`
+  color: #00293f;
+  font-weight: bold;
+`
+
 const Flex = styled.div`
   display: flex;
   flex-direction: column;
@@ -177,6 +182,23 @@ const Download = () => {
           )}
           <DevDownloadButton />
         </Flex>
+        <h2>Qickstart Guide</h2>
+        <p>
+          <Highlight>Build: </Highlight> After downloading, you can follow the
+          <a href="https://github.com/ControlSystemStudio/phoebus"
+          target="_blank"
+          rel="noopener noreferrer"
+          > build instructions </a>
+          on GitHub.
+        </p>
+        <p>
+          <Highlight>Run: </Highlight>For instructions on how to run Phoebus, you can have a look at the
+          <a href="https://control-system-studio.readthedocs.io/en/latest/running.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          > Guidebook </a>.
+        </p>
+
         <h2>Site Specific Versions</h2>
         <SiteSpecificVersions />
         <div style={{ marginBottom: `1rem` }}></div>
