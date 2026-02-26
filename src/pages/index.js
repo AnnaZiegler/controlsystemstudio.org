@@ -104,18 +104,19 @@ const IndexPage = () => {
         <Container style={{ marginTop: `2rem`, marginBottom: `2rem` }}>
           <h1>Control System Studio</h1>
           <p style={{ marginBottom: `0` }}>
-          <Highlight>Control System Studio</Highlight> is a collection of tools and applications to monitor and operate 
-          large scale control systems, such as the ones in the accelerator community.
+            Control System Studio is a <Highlight>collection of tools and applications</Highlight> to
+            <Highlight> monitor and operate </Highlight> large scale control systems, such as the ones in the accelerator community.
           </p>
           <p></p>
-          <p>  <Highlight>Phoebus</Highlight> is a pure java/javafx based implementation which uses java 
-          feature like SPI and modules to provide the same extensible and modular achitecture. This is the 
-          current implementation of <Highlight>CS-Studio</Highlight>. The original implementation of 
-          <Highlight> CS-Studio</Highlight> is based on the eclipse RCP framework which provided
-          an extensible and pluggable architecture.
+          <p>
+            <Highlight>Phoebus</Highlight>, the current implementation of CS-Studio, is a pure <Highlight>java/javafx</Highlight> based implementation
+            which uses features like <Highlight>SPI and modules</Highlight> to provide the same extensible and modular achitecture.
+            The original implementation of CS-Studio is based on the <Highlight>Eclipse RCP framework </Highlight>
+            which provided an extensible and pluggable architecture.
           </p>
-          <p> The <Highlight>Phoebus</Highlight> and <Highlight>CS-Studio</Highlight> products are developed and 
-          maintained by a collaboration between many laboratories and universities.
+          <p>
+            The Phoebus and CS-Studio products are developed and maintained
+            by a <Highlight>collaboration between many laboratories and universities</Highlight>.
         </p>
         </Container>
         <GreyBackground style={{ padding: `2rem 0` }}>
@@ -133,9 +134,10 @@ const IndexPage = () => {
             </h2>
             <ContentFlexLeft>
               <p>
-                With an extensible data connection layer it is possible to use Phoebus & CS-Studio 
-                with multiple control systems and data sources. Currently, the community supports
-                the EPICS channel access and pvAccess protocols along with MQTT.
+                With an <Highlight>extensible data connection layer</Highlight> it is possible
+                to use Phoebus and CS-Studio with multiple control systems and data sources.
+                Currently, the community supports the <Highlight>EPICS Channel Access </Highlight>
+                and <Highlight>pvAccess</Highlight> protocols along with <Highlight>MQTT</Highlight>.
                 The use of well defined SPI's allows for CS-Studio applications to be used with multiple site specific 
                 services.
               </p>
@@ -169,11 +171,11 @@ const IndexPage = () => {
                 />
               </ContentImage>
               <p>
-                A WYSIWYG editor makes it possible to develop production quality controls and
-                monitoring user interfaces easily.
-                The CS-Studio Phoebus framework provides support for developing multi-threading applications 
-                along with providing features like rate limiting and aggregation ensuring performance and scalablity of 
-                user developed screens.
+                A <Highlight>WYSIWYG editor</Highlight> makes it possible to develop production quality controls
+                and monitoring user interfaces easily.
+                The framework provides support for developing <Highlight>multi-threading applications </Highlight> 
+                along with providing features like <Highlight>rate limiting and aggregation</Highlight>,
+                ensuring performance and scalablity of user developed screens.
               </p>
             </ContentFlexRight>
           </Container>
@@ -193,12 +195,10 @@ const IndexPage = () => {
             </h2>
             <ContentFlexLeft>
               <p>
-              The Databrowser is a trending tool. It aggregates live and
-              archived data to plot values over a user-defined time range.
-              Databrowser plots may be created from any OPI visual component
-              associated with a control system process value (PV). Additional
-              features include extensive plot styling capabilities as well as 
-              import/export of data in several formats. 
+              The Databrowser is a <Highlight>trending tool</Highlight>.
+              It <Highlight>aggregates live and archived data</Highlight> to plot values over a user-defined time range.
+              Databrowser plots may be created from any OPI visual component associated with a <Highlight>Control System Process Value (PV). </Highlight>
+              Additional features include extensive plot styling capabilities as well as <Highlight>import/export of data</Highlight> in several formats. 
               </p>
               <ContentImage>
                 <GatsbyImage
