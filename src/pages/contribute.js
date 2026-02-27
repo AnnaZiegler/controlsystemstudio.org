@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Container from "../components/container"
 import Banner from "../components/banner"
+import UpcomingEvents from "../components/UpcomingEvents"
 
 const About = () => {
   const images = useStaticQuery(graphql`{
@@ -90,7 +91,10 @@ const About = () => {
           </a>
           .
         </p>
-        <h2>Attend Meetings</h2>
+        <h2>Upcoming Events</h2>
+        <UpcomingEvents />
+        <div style={{ marginBottom: `1rem` }}></div>
+        <h2>Attend Regular Meetings</h2>
         <ul>
           <li>
             We use Google Hangouts to share our progress and discuss issues.
