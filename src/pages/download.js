@@ -11,6 +11,7 @@ import Banner from "../components/banner"
 import SiteSpecificVersions from "../components/SiteSpecificVersions"
 import { dlInfo } from "../utils/downloadinfo"
 
+
 const Highlight = styled.span`
   color: #00293f;
   font-weight: bold;
@@ -103,15 +104,7 @@ const Download = () => {
         <Flex>
           <DownloadButtonPhoebus />
         </Flex>
-
-          {OSName === "Windows" && (
-            <DownloadButton
-              link={dlInfo.downloadStableWindows}
-              os={"Windows"}
-            />
-          )}
-          <DevDownloadButton />
-        </Flex>
+        
         <h2>Qickstart Guide</h2>
         <p>
           <Highlight>Build: </Highlight> After downloading, you can follow the
