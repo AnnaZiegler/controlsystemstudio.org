@@ -221,7 +221,7 @@ const Collaboration = ({ style }) => {
         </Flex>
         <Flex style={style}>  
         <a
-            href="http://www.helmholtz-berlin.de/"
+            href="http://www.helmholtz-berlin.de/index_en.html"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to HZB Website"
@@ -245,7 +245,7 @@ const Collaboration = ({ style }) => {
             />
         </a>
         <a
-            href="https://www.kit.edu/"
+            href="https://www.kit.edu/english/index.php"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to KIT Website"
@@ -257,7 +257,7 @@ const Collaboration = ({ style }) => {
             />
         </a>
         <a
-            href="https://www.psi.ch/de"
+            href="https://www.psi.ch/en"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to PSI Website"
